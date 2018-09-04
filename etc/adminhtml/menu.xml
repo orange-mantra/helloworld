@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Orangemantra. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="orangemantra::base" title="Orangemantra" module="Orangemantra_Helloworld" sortOrder="90" resource="Orangemantra_Helloworld::sample"/>
+        <add id="orangemantra_helloworld::helloworld" title="Items" module="Orangemantra_Helloworld" sortOrder="10" parent="orangemantra::base" action="orangemantra_helloworld/items/" resource="Orangemantra_Helloworld::items"/>
+    </menu>
+</config>
