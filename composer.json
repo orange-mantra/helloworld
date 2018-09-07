@@ -6,6 +6,7 @@
     "magento/magento-composer-installer": "*"
   },
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "type": "magento2-module",
   "license": [
     "OSL-3.0",
